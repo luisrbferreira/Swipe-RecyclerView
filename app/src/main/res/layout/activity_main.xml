@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@color/teal"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -31,14 +31,14 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:gravity="center_vertical|center_horizontal|bottom"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
                 <android.support.design.widget.FloatingActionButton
                     android:id="@+id/fab_novaLista"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal|bottom"
                     android:src="@drawable/ic_plus_white_24dp" />
             </LinearLayout>
