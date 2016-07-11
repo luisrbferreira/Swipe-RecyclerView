@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 } else {
                     removeView();
                     edit_position = position;
-                    alertDialog.setTitle("Alterar nome da lista");
+                    alertDialog.setTitle("Change list name");
                     edt_item.setText((CharSequence) items.get(position));
                     alertDialog.show();
                 }
